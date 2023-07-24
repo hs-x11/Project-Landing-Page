@@ -13,7 +13,7 @@ header {
     color: #f9faf8;
     background-color: #344F53;
     width: 100%;
-    height: 30rem;
+    height: 25rem;
 }
 
 .nav-header {
@@ -44,7 +44,8 @@ header {
 
 .bottom-header {
     display: flex;
-    margin: 100px;
+    margin: 70px;
+    justify-content: center;
 }
 
 h1 {
@@ -59,7 +60,7 @@ h1 {
     margin-right: 8%;
 }
 
-button {
+.left-text-header button {
     background-color: #856B5D;
     color: #f9faf8;
     width: 120px;
@@ -71,7 +72,7 @@ button {
     font-size: 18px;
 }
 
-button:hover {
+.left-text-header button:hover {
     background-color: #ACA294;
     cursor: pointer;
 }
@@ -84,7 +85,7 @@ button:hover {
 .midsection {
     background-color: #211913;
     width:100%;
-    height: 30rem;
+    height: 25rem;
 
 }
 
@@ -92,7 +93,7 @@ button:hover {
     text-align: center;
     color: #2591AC;
     font-weight: bolder;
-    padding-top: 5rem;
+    padding-top: 3rem;
 }
 
 .midsection-container {
@@ -139,10 +140,50 @@ button:hover {
 
 }
 
+h6 {
+    font-weight: bold;
+    padding-left: 34rem;
+}
+
+.midsection-three {
+    background-color: #211913;
+    width:100%;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-container {
+    background-color: #ACA294;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55rem;
+    height: 8rem;
+}
+
+.signup-button button {
+    background-color: #856B5D;
+    color: #f9faf8;
+    border: 1px solid #f9faf8;
+    width: 100px;
+    height: 40px;
+    margin-left: 60%;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.signup-container button:hover {
+    background-color: #2591AC;
+    cursor: pointer;
+}
+
 footer {
     color: #f9faf8;
     background-color: #344F53;
     text-align: center;
-    padding-top: 20px;
-    height: 40%;
+    padding: 2rem;
 }
